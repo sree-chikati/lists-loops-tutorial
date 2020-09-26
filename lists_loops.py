@@ -27,3 +27,17 @@ print(songs)
         #songs.clear()  #removes all elements from a list
 del songs[0]
 print(songs)
+
+#Task: What are the differences between these two approaches?
+# Option 1
+for song in songs:
+    print(song)
+
+# Option 2
+for i in range(len(songs)):
+    print(songs[i])
+
+#The difference between these two approaches is that 
+# Option 1 executes as such: "for each song in the songs list, print the song"
+# Option 2 approaches the execution in a similar way; 
+# however, it sets a range that as long as the index "i" is within the range of the songs list length, print the index of "songs[i]"
