@@ -19,3 +19,11 @@ songs.extend(["Save Me"]) #adds a list to end of a list
 print(songs)
 songs.insert(4, "Spring Day") #adds element at specific index followed by item
 print(songs)
+
+#Task: delete one of the elements in your songs list in your list_loops.py file
+ #Other ways to delete elements from lists:
+        #songs.remove("ROCKSTAR")  #removes element from list
+        #songs.pop(1)  #removes and returns element at specific index
+        #songs.clear()  #removes all elements from a list
+del songs[0]
+print(songs)
