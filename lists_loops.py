@@ -41,3 +41,20 @@ for i in range(len(songs)):
 # Option 1 executes as such: "for each song in the songs list, print the song"
 # Option 2 approaches the execution in a similar way; 
 # however, it sets a range that as long as the index "i" is within the range of the songs list length, print the index of "songs[i]"
+
+#Final Task: In your list_loops.py file
+
+#1. Create another list called animals and fill it with 3 animal strings of your choice such as "Cat", "Dog", and "Bird"
+animals = ["Dog", "Polar Bear", "White Tiger"]
+print(animals)
+#2. Add another animal to your list
+animals.append("Panda") #adds an element to the end of the list
+print(animals)
+#3. print out the 3rd animal in the list
+print(animals[2])
+#4. Delete the first animal in the list
+del animals[0]
+print(animals)
+#5. Use a loop to print out all the animals in your animals list
+for i in range(len(animals)):
+    print(animals[i])
